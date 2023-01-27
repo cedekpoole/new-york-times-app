@@ -24,7 +24,7 @@
   <body>
     <div class="container border bg-light">
       <div
-        class="jumbotron jumbotron-fluid rounded-bottom text-center py-4 text-light"
+        class="jumbotron jumbotron-fluid rounded-bottom text-center py-4 text-light gradient-bg"
       >
         <div class="container">
           <h1 class="display-2 text-uppercase">New York Times</h1>
@@ -37,8 +37,8 @@
         <div class="col-sm-12">
           <br />
           <!-- First card is for handling the search parameters -->
-          <div class="card rounded">
-            <div class="card-header pb-0">
+          <div class="card rounded mb-4">
+            <div class="card-header gradient-bg pb-0">
               <p class="text-light h5">
                 <i class="fa-solid fa-compass"></i> Search Parameters
               </p>
@@ -71,13 +71,13 @@
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="start-year">Start Year (Optional):</label>
-                    <input type="text" class="form-control" id="start-year" />
+                    <input type="text" class="form-control" id="start-year" placeholder="YYYY" />
                   </div>
 
                   <!-- Here we capture the End Year Parameter -->
                   <div class="form-group col-md-6">
                     <label for="end-year">End Year (Optional):</label>
-                    <input type="text" class="form-control" id="end-year" />
+                    <input type="text" class="form-control" id="end-year" placeholder="YYYY" />
                   </div>
                 </div>
 
@@ -89,6 +89,28 @@
                   <i class="fa fa-trash"></i> Clear Results
                 </button>
               </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <br>
+  
+          <!-- This card will initially be made up of a card and wells for each of the articles retrieved -->
+          <div class="card">
+  
+            <!-- card Heading for the retrieved articles box -->
+            <div class="card-header gradient-bg text-light pb-0">
+              <p class="h5">
+                <i class="fa fa-table"></i> Top Articles</p>
+            </div>
+  
+            <!-- This main card will hold each of the resulting articles -->
+            <div class="card-body" id="article-section">
+              <div class="card">
+
+              </div>
             </div>
           </div>
         </div>
