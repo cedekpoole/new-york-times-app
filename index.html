@@ -54,7 +54,9 @@
 
                 <!-- Here we capture the number of records that the user wants to retrieve  -->
                 <div class="form-group">
-                  <label id="article-number" for="article-count">Number of Articles: </label>
+                  <label id="article-number" for="article-count"
+                    >Number of Articles:
+                  </label>
                   <input
                     type="range"
                     class="custom-range"
@@ -71,13 +73,23 @@
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="start-year">Start Year (Optional):</label>
-                    <input type="text" class="form-control" id="start-year" placeholder="YYYY" />
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="start-year"
+                      placeholder="YYYY"
+                    />
                   </div>
 
                   <!-- Here we capture the End Year Parameter -->
                   <div class="form-group col-md-6">
                     <label for="end-year">End Year (Optional):</label>
-                    <input type="text" class="form-control" id="end-year" placeholder="YYYY" />
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="end-year"
+                      placeholder="YYYY"
+                    />
                   </div>
                 </div>
 
@@ -95,22 +107,17 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <br>
-  
+          <br />
+
           <!-- This card will initially be made up of a card and wells for each of the articles retrieved -->
           <div class="card">
-  
             <!-- card Heading for the retrieved articles box -->
             <div class="card-header gradient-bg text-light pb-0">
-              <p class="h5">
-                <i class="fa fa-table"></i> Top Articles</p>
+              <p class="h5"><i class="fa fa-table"></i> Top Articles</p>
             </div>
-  
+
             <!-- This main card will hold each of the resulting articles -->
             <div class="card-body" id="article-section">
-              <div class="card">
-
-              </div>
             </div>
           </div>
         </div>
@@ -127,8 +134,8 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
-      integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
       crossorigin="anonymous"
     ></script>
     <script src="assets/script.js"></script>
