@@ -1,0 +1,11 @@
+body {
+    font-family: 'Nanum Myeongjo', sans-serif;
+}
+
+.jumbotron {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.card-header {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
